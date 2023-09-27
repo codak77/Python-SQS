@@ -5,10 +5,13 @@ This Python script allows you to fetch and display the current number of items i
 Prerequisites
 
 Boto3 1.16+: The script utilizes the Boto3 library to interact with AWS services.
+
 Python 3.8+: Ensure you have Python 3.8 or a later version installed.
+
 AWS Credentials: You need valid AWS credentials to access SQS. Make sure to set up region name, AWS access key ID and secret access key. You can configure them using one of the following methods:
-    AWS CLI: Use the aws configure command to set up your credentials.
-    Environment Variables: Set the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and REGION_NAME environment variables.
+
+- AWS CLI: Use the aws configure command to set up your credentials.
+- Environment Variables: Set the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and REGION_NAME environment variables.
 
 Installation
 Install Boto3 using pip if it's not already installed:
